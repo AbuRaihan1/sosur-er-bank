@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>bank statement</title>
+  </head>
+  <body>
+    <main class="bank_container">
+      <h1>
+        let's calculate 
+        <span style="color: purple; font-weight: bolder; font-size: 28px"
+          >Sosur er mooooooony</span
+        >
+      </h1>
+
+      <div class="money_wrapper">
+        <div class="bank_all_statement">
+          <div>
+            <h2>Deposit</h2>
+            <h2>$<span id="deposit_money">00</span></h2>
+          </div>
+          <div>
+            <h2>Withdraw</h2>
+            <h2>$<span id="withdraw_money">00</span></h2>
+          </div>
+          <div>
+            <h2>Balance</h2>
+            <h2>$<span id="main_balance">1200</span></h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="deposit_withdraw">
+        <div class="flexing_withdraw_deposit">
+          <h2>Enter Deposit</h2>
+          <input
+            id="deposit_input"
+            type="text"
+            placeholder="Enter deposit amount"
+            required
+          />
+          <button id="deposit_button">Deposit</button>
+        </div>
+
+        <div class="flexing_withdraw_deposit">
+          <h2>Enter Withdraw</h2>
+          <input
+            id="withdraw_input"
+            type="text"
+            placeholder="Enter withdraw amount"
+            required
+          />
+          <button id="withdraw_button">Withdraw</button>
+        </div>
+      </div>
+    </main>
+
+    <script src="js/bank.js"></script>
+    <script src="js/utilities.js"></script>
+    <script src="js/withdraw.js"></script>
+    <script src="js/deposit.js"></script>
+  </body>
+</html>

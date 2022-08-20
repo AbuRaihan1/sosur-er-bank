@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.container_wrapper {
+  background: pink;
+  margin: 0 auto;
+  width: 70%;
+  padding: 20px;
+}
+
+.container_wrapper h1,
+.bank_container h1 {
+  text-align: center;
+  text-transform: capitalize;
+}
+
+
+.container_wrapper input {
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 20px;
+  width: 90%;
+  display: block;
+}
+
+.container_wrapper button {
+  border: 2px solid deeppink;
+  outline: none;
+  padding: 10px 40px;
+  background-color: transparent;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+  text-transform: capitalize;
+  transition: all 0.3s ease-in-out;
+}
+
+.container_wrapper button:hover {
+  background-color: deeppink;
+  color: white;
+}
+
+/* bank file stylesheet  */
+
+.bank_container {
+  background: pink;
+  padding: 50px 0;
+}
+.money_wrapper {
+  margin: 0 auto;
+}
+.bank_all_statement {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.bank_all_statement > div {
+  width: 320px;
+  border-radius: 15px;
+  margin: 10px;
+  text-align: left;
+  padding-left: 20px;
+  background-color: pink;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.deposit_withdraw {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.deposit_withdraw > .flexing_withdraw_deposit {
+  margin: 10px;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  width: 320px;
+}
+
+.deposit_withdraw > .flexing_withdraw_deposit > input {
+  border: 2px solid deeppink;
+  outline: none;
+  background-color: transparent;
+  padding: 10px;
+  border-radius: 5px;
+  display: block;
+  width: 80%;
+}
+
+.deposit_withdraw > .flexing_withdraw_deposit> button {
+  border: none;
+  outline: none;
+  padding: 10px 40px;
+  border-radius: 5px;
+  margin: 10px;
+  background-color: deeppink;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  margin-left: 0;
+  transition: all .3s ease-in-out;
+}
+
+.deposit_withdraw > .flexing_withdraw_deposit > button:hover{
+  background: rgb(207, 12, 116);
+}
